@@ -28,5 +28,8 @@ release:
 
 brews:
   - name: newrelic-integration-e2e
+    tap:
+      owner: newrelic-forks
+      name: newrelic-integration-e2e
     folder: Formula
     description: "Allows New Relic developers to run e2e on OHIs"
